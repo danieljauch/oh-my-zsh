@@ -16,7 +16,7 @@ PROMPT="
 %{$terminfo[bold]$fg[yellow]%}%~%{$reset_color%}\
 ${git_info} \
 %{$fg[white]%}{%*} $exit_code
-%{$terminfo[bold]$fg[red]%}λ %{$reset_color%}"
+%{$terminfo[bold]$fg[magenta]%}λ %{$reset_color%}"
 
 # Prompt format:
 # USER@MACHINE DIRECTORY |> git:BRANCH STATE {TIME} ∅:LAST_EXIT_CODE

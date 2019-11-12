@@ -13,10 +13,15 @@ PROMPT="
 %(#,%n%{$reset_color%},%{$fg[cyan]%}%n)\
 %{$fg[white]%}@\
 %{$fg[green]%}%m \
-%{$terminfo[bold]$fg[yellow]%}%~%{$reset_color%}\
-${git_info} \
-%{$fg[white]%}{%*} $exit_code
 %{$terminfo[bold]$fg[magenta]%}λ %{$reset_color%}"
+
+# %(#,%n%{$reset_color%},%{$fg[cyan]%}%n)\
+# %{$fg[white]%}@\
+# %{$fg[green]%}%m \
+# %{$terminfo[bold]$fg[yellow]%}%~%{$reset_color%}\
+# ${git_info} \
+# %{$fg[white]%}{%*} $exit_code
+# %{$terminfo[bold]$fg[magenta]%}λ %{$reset_color%}"
 
 # Prompt format:
 # USER@MACHINE DIRECTORY |> BRANCH STATE {TIME} ∅:LAST_EXIT_CODE
